@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/word__app/static/css/main.c0127aa6.css",
-    "main.js": "/word__app/static/js/main.2c5f08ad.js",
-    "static/js/239.73850b33.chunk.js": "/word__app/static/js/239.73850b33.chunk.js",
-    "static/js/213.03ed06a6.chunk.js": "/word__app/static/js/213.03ed06a6.chunk.js",
-    "static/js/732.d14b0a20.chunk.js": "/word__app/static/js/732.d14b0a20.chunk.js",
-    "static/js/453.ed3810f9.chunk.js": "/word__app/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/word__app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/word__app/index.html",
-    "main.c0127aa6.css.map": "/word__app/static/css/main.c0127aa6.css.map",
-    "main.2c5f08ad.js.map": "/word__app/static/js/main.2c5f08ad.js.map",
-    "239.73850b33.chunk.js.map": "/word__app/static/js/239.73850b33.chunk.js.map",
-    "213.03ed06a6.chunk.js.map": "/word__app/static/js/213.03ed06a6.chunk.js.map",
-    "732.d14b0a20.chunk.js.map": "/word__app/static/js/732.d14b0a20.chunk.js.map",
-    "453.ed3810f9.chunk.js.map": "/word__app/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/words__my/static/css/main.c0127aa6.css",
+    "main.js": "/words__my/static/js/main.1d7b6b45.js",
+    "static/js/239.73850b33.chunk.js": "/words__my/static/js/239.73850b33.chunk.js",
+    "static/js/213.03ed06a6.chunk.js": "/words__my/static/js/213.03ed06a6.chunk.js",
+    "static/js/732.d14b0a20.chunk.js": "/words__my/static/js/732.d14b0a20.chunk.js",
+    "static/js/453.ed3810f9.chunk.js": "/words__my/static/js/453.ed3810f9.chunk.js",
+    "static/media/logo.svg": "/words__my/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/words__my/index.html",
+    "main.c0127aa6.css.map": "/words__my/static/css/main.c0127aa6.css.map",
+    "main.1d7b6b45.js.map": "/words__my/static/js/main.1d7b6b45.js.map",
+    "239.73850b33.chunk.js.map": "/words__my/static/js/239.73850b33.chunk.js.map",
+    "213.03ed06a6.chunk.js.map": "/words__my/static/js/213.03ed06a6.chunk.js.map",
+    "732.d14b0a20.chunk.js.map": "/words__my/static/js/732.d14b0a20.chunk.js.map",
+    "453.ed3810f9.chunk.js.map": "/words__my/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0127aa6.css",
-    "static/js/main.2c5f08ad.js"
+    "static/js/main.1d7b6b45.js"
   ]
 }
