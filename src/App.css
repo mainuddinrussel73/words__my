@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  vertical-align: top;
+  max-width: 150px;
+
+}
+
+.responsive-table th {
+  background-color: #f1f3f5;
+  color: #2c3e50;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.responsive-table td {
+  color: #444;
+  white-space: pre-wrap;
+  width: fit-content;
+  width: 25%;
+
+}
+
+.responsive-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.loading {
+  text-align: center;
+  color: #888;
+}
+
+.export-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.export-button:hover {
+  background-color: #1b4f72;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.3s ease-out;
+  position: relative;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.responsive-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #333;
+}
+
+.responsive-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .responsive-table th,
+  .responsive-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .modal-content {
+    padding: 20px;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .responsive-table th,
+  .responsive-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
